@@ -23,7 +23,7 @@ public class mySQLCon {
 		} 
 		//2.Create connection object using getConnection Method of DriveManager class 
 		
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cadd_centre","root","Mysql@9782");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cadd_centre","root","....");
 		
 		// 3.create a statement object
 		// create Instance of Statement type using createStatement method of Connection Interface;
